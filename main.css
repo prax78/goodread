@@ -120,3 +120,14 @@ a:visited{
     90% { border-color:rgb(140,156,236) ; }
     100% { border-color: rgb(173,32,198) ; }
 }
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Center vertically in the viewport */
+  }
+  
+  .video-wrapper {
+    text-align: center; /* Center the iframe horizontally */
+  }
