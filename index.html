@@ -12,17 +12,24 @@
 
 </head>
 <body onload="create_list()">
+  
     <div class="app-container">
+       
         <div class="sidebar">
+            
+            <button onclick="toggleDarkMode()" class="icon-button">
+                <img id="theme-icon" src="light.png" alt="Toggle Theme">
+            </button>
+            <br/>
             <h2>DEVOPS & Automation Prep</h2>
             <nav>
                 <ul id="ul_list">
                     <li onclick="(()=>window.location.reload())()">Home</li>
+                
                 </ul>
+                
             </nav>
-            <button onclick="toggleDarkMode()" class="icon-button">
-                <img id="theme-icon" src="light.png" alt="Toggle Theme">
-            </button>
+           
         </div>
         <div class="content">
             <h3 id="header">An insightful read to help you prepare effectively for interviews!</h3>
