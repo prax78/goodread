@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Good Read</title>
+    <title>DEVOPS/Automation</title>
     <link rel="stylesheet" href="main.css">
     <script defer src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked-highlight/lib/index.umd.js"></script>
 
 </head>
-<body>
+<body onload="create_list()">
     <div class="app-container">
         <div class="sidebar">
-            <h2>GoodRead</h2>
+            <h2>DEVOPS & Automation Prep</h2>
             <nav>
-                <ul>
-                    <li onclick="loadContent('Home Content')">Home</li>
-                    <!-- <li onclick="loadContent('About Content')">About</li>
-                    <li onclick="loadContent('Services Content')">Services</li>
-                    <li onclick="loadContent('Contact Content')">Contact</li> -->
+                <ul id="ul_list">
+                    <li onclick="(()=>window.location.reload())()">Home</li>
                 </ul>
             </nav>
             <button onclick="toggleDarkMode()" class="icon-button">
@@ -26,9 +25,24 @@
             </button>
         </div>
         <div class="content">
-            <h3>An insightful read to help you prepare effectively for interviews!</h3>
+            <h3 id="header">An insightful read to help you prepare effectively for interviews!</h3>
             <p id="content-area">Welcome! Select your topics from the Navbar!!.</p>
+
+            <div class="guideline">
+                <p >Please participate in this  <strong> open source project </strong> by adding more content.!!</p>
+                <p >You can add more contents by following below steps </p>
+                <ol type="1" >
+                    <li style="padding: 5px;"> Fill out the Google form <a class="main_a" href="https://forms.gle/HiZ3PmVd651DGCBN7" target="_blank">Click</a> -User Action </li>
+                    <li style="padding: 5px;"> Validate response from user from the step 1 - Prakash78Blog </li>
+                    <li style="padding: 5px;"> Update /data/src.json and /data/files/*.md - Prakash78Blog</li>
+                </ol>
+               <a class="main_a" href="https://github.com/prax78/goodread">Project Repo</a> 
+            </div>
+            
         </div>
     </div>
+    <footer class="footer">
+        <span id="year"></span> 
+    </footer>
 </body>
 </html>

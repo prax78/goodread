@@ -1,11 +1,14 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
 
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
 .app-container {
     display: flex;
-    height: 100vh;
 }
 
 .sidebar {
@@ -73,4 +76,47 @@ button {
 .icon-button img {
     width: 20px;
     height: 20px;
+}
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.main_a:default{
+    color:  magenta;
+}
+.main_a:visited{
+    color: magenta;
+}
+
+a:default{
+    color: magenta;
+}
+
+a:visited{
+    color: darkgray;
+}
+
+.guideline{
+    border: 5px solid;
+    animation: borderColorChange 10s infinite linear;
+    padding:10px;
+}
+@keyframes borderColorChange {
+    0% { border-color: rgb(173,32,198) }
+    10% { border-color: rgb(86,80,233); }
+    20% { border-color:rgb(227,14,158); }
+    20% { border-color: rgb(116,62,224); }
+    40% { border-color:rgb(169,123,212) ; }
+    50% { border-color: rgb(184,36,140); }
+    60% { border-color:rgb(144,46,236); }
+    80% { border-color:rgb(160,80,184); }
+    90% { border-color:rgb(140,156,236) ; }
+    100% { border-color: rgb(173,32,198) ; }
 }
