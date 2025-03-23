@@ -1,0 +1,50 @@
+[
+    {
+        "Title": "Python - Important Modules with Code snippets",
+        "Sub_Title": "Itertools,Collection and Functools Modules",
+        "File_Loc": "/data/files/Python_imp_modules.md",
+        "Contributor_Email": ["prax78@gmail.com"]
+    },
+    {
+        "Title": "Ansible - Create Plugins and Modules",
+        "Sub_Title": "How to create Plugins and Modules in Ansible",
+        "File_Loc": "/data/files/ansible_plugins_modules.md",
+        "Contributor_Email": ["prax78@gmail.com"] 
+    },    
+    {
+        "Title": "Terraform- Basics and Interview Questions",
+        "Sub_Title": "Some of the Terraform Interview Questions with Answers",
+        "File_Loc": "/data/files/terraform_interview_questions.md",
+        "Contributor_Email": ["prax78@gmail.com"] 
+    },    
+    {
+        "Title": "Ansible- Basics and Interview Questions",
+        "Sub_Title": "Some of the Ansible Interview Questions with Answers",
+        "File_Loc": "/data/files/ansible_interview.md",
+        "Contributor_Email": ["prax78@gmail.com"] 
+    },    
+    {
+        "Title": "Git & Github- Basics and Interview Questions",
+        "Sub_Title": "Some of the Git,GitHub Interview Questions with Answers",
+        "File_Loc": "/data/files/git_interview.md",
+        "Contributor_Email": ["prax78@gmail.com"] 
+    },    
+    {
+        "Title": "CICD- Basics and Interview Questions",
+        "Sub_Title": "Some of the CICD Interview Questions with Answers",
+        "File_Loc": "/data/files/cicd_pipe.md",
+        "Contributor_Email": ["prax78@gmail.com"] 
+    },    
+    {
+        "Title": "K8s -Docker- Basics and Interview Questions",
+        "Sub_Title": "Some of the Docker -K8s Interview Questions with Answers",
+        "File_Loc": "/data/files/docker_k8.md",
+        "Contributor_Email": ["prax78@gmail.com"] 
+    },    
+    {
+        "Title": "Linux- Basics and Interview Questions",
+        "Sub_Title": "Some of the Linux Interview Questions with Answers",
+        "File_Loc": "/data/files/linux.md",
+        "Contributor_Email": ["prax78@gmail.com"] 
+    }
+]
