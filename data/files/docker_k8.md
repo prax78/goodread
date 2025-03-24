@@ -23,7 +23,7 @@ Docker containers are lightweight, portable, and executable units that include e
 **Answer:**  
 | Feature | Docker Container | Virtual Machine |
 |---------|-----------------|----------------|
-| OS | Shares host OS | Has its own OS |
+| OS      | Shares host OS  | Has its own OS |
 | Performance | Faster, lightweight | Slower, heavy |
 | Isolation | Process-level | Full OS-level |
 
