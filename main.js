@@ -4,7 +4,7 @@ var list_items=[];
 var span=document.getElementById("year");
 span.innerText=`©️ ${new Date().getFullYear()} `;
 const aelement=span.appendChild(document.createElement("a"));
-const converter = new showdown.Converter();
+var converter = new showdown.Converter();
 aelement.innerText="Prakash78Blog";
 aelement.setAttribute("href","https://prakash78blog.wordpress.com");
 
@@ -51,7 +51,10 @@ async function loadContent(sub,loc,email) {
        
        res_data.text()
        //.then(data=>document.getElementById("content-area").innerHTML=marked.parse(data));
-       .then(data=>document.getElementById("content-area").innerHTML=converter.makeHtml(data));
+       .then(data=>{
+        document.getElementById("content-area").innerHTML=converter.makeHtml(data);
+        hljs.highlightAll();
+    });
       
     }else{
         document.getElementById("content-area").innerHTML="Error! fetching MD file!";
