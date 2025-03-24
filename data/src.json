@@ -46,5 +46,17 @@
         "Sub_Title": "Some of the Linux Interview Questions with Answers",
         "File_Loc": "/data/files/linux.md",
         "Contributor_Email": ["prax78@gmail.com"] 
+    },    
+    {
+        "Title": "AWS- Basics and Interview Questions",
+        "Sub_Title": "Some of the AWS Interview Questions with Answers",
+        "File_Loc": "/data/files/aws_cloud.md",
+        "Contributor_Email": ["prax78@gmail.com"] 
+    },    
+    {
+        "Title": "Azure- Basics and Interview Questions",
+        "Sub_Title": "Some of the Azure Interview Questions with Answers",
+        "File_Loc": "/data/files/azure_cloud.md",
+        "Contributor_Email": ["prax78@gmail.com"] 
     }
 ]
