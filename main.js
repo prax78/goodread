@@ -9,6 +9,18 @@ aelement.innerText="Prakash78Blog";
 aelement.setAttribute("href","https://prakash78blog.wordpress.com");
 
 
+
+async function getVersion(){
+    await fetch("https://api.github.com/repos/prax78/goodread/tags")
+               .then(res=>res.json())
+               .then(data=>
+                {
+                    document.getElementById("version").textContent=data[0].name??0;
+                    
+                })
+               .catch(err=>console.log("unable to get the version"));
+}
+getVersion();
 async function create_list(){
     await fetch(`${main_page}/data/src.json`)
     .then(res=>res.json())
