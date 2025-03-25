@@ -58,5 +58,17 @@
         "Sub_Title": "Some of the Azure Interview Questions with Answers",
         "File_Loc": "/data/files/azure_cloud.md",
         "Contributor_Email": ["prax78@gmail.com"] 
+    },    
+    {
+        "Title": "Bash- Basics and Advanced Commands",
+        "Sub_Title": "Basics to Advanced",
+        "File_Loc": "/data/files/bash.md",
+        "Contributor_Email": ["prax78@gmail.com"] 
+    },    
+    {
+        "Title": "Observability- Basics and Interview Questions",
+        "Sub_Title": "Observability-Grafana-Prometheus",
+        "File_Loc": "/data/files/Ggrafana_prom.md",
+        "Contributor_Email": ["prax78@gmail.com"] 
     }
 ]

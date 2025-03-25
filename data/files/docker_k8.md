@@ -18,11 +18,10 @@ Docker is a containerization platform that allows developers to package applicat
 Docker containers are lightweight, portable, and executable units that include everything needed to run an application (code, runtime, system tools, libraries, and dependencies).
 
 ---
-
 ### 3. What is the difference between Docker and a Virtual Machine?
 **Answer:**  
 | Feature | Docker Container | Virtual Machine |
-|:---------|:-----------------:|----------------:|
+|:---------|:-----------------:|:----------------:|
 | OS      | Shares host OS  | Has its own OS |
 | Performance | Faster, lightweight | Slower, heavy |
 | Isolation | Process-level | Full OS-level |
@@ -68,7 +67,7 @@ docker run -d -p 8080:80 myapp
 
 ### 7. What is a Docker Volume?
 **Answer:**  
-A **Docker Volume** is used for persisting data across container restarts.
+**Docker Volume** is used for persisting data across container restarts.
 
 Example:
 ```sh
