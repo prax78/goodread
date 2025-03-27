@@ -76,5 +76,11 @@
         "Sub_Title": "Golang basics",
         "File_Loc": "/data/files/golang.md",
         "Contributor_Email": ["prax78@gmail.com"] 
+    },    
+    {
+        "Title": "SRE Q&As",
+        "Sub_Title": "SRE",
+        "File_Loc": "/data/files/golang.md",
+        "Contributor_Email": ["prax78@gmail.com"] 
     }
 ]
