@@ -70,5 +70,11 @@
         "Sub_Title": "Observability-Grafana-Prometheus",
         "File_Loc": "/data/files/Ggrafana_prom.md",
         "Contributor_Email": ["prax78@gmail.com"] 
+    },    
+    {
+        "Title": "Golang Basics to Adanced",
+        "Sub_Title": "Golang basics",
+        "File_Loc": "/data/files/Ggrafana_prom.md",
+        "Contributor_Email": ["prax78@gmail.com"] 
     }
 ]
