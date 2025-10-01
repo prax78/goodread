@@ -82,5 +82,11 @@
         "Sub_Title": "SRE",
         "File_Loc": "/data/files/sre.md",
         "Contributor_Email": ["prax78@gmail.com"] 
+    },    
+    {
+        "Title": "Prometheus + Alertmanager + n8n Setup",
+        "Sub_Title": "Observability-Grafana-Prometheus",
+        "File_Loc": "/data/files/sre.md",
+        "Contributor_Email": ["prax78@gmail.com"] 
     }
 ]
