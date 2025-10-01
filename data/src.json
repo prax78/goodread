@@ -86,7 +86,7 @@
     {
         "Title": "Prometheus + Alertmanager + n8n Setup",
         "Sub_Title": "Observability-Grafana-Prometheus",
-        "File_Loc": "/data/files/sre.md",
+        "File_Loc": "/data/files/prometheus_alertmanager_n8nwebhook.md",
         "Contributor_Email": ["prax78@gmail.com"] 
     }
 ]
