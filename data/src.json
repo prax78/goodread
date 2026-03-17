@@ -10,7 +10,13 @@
         "Sub_Title": "How to create Plugins and Modules in Ansible",
         "File_Loc": "/data/files/ansible_plugins_modules.md",
         "Contributor_Email": ["prax78@gmail.com"] 
-    },    
+    },  
+    {
+        "Title": "Ansible - Create Modules For Windows",
+        "Sub_Title": "How to create Modules For Windows in Ansible",
+        "File_Loc": "/data/files/ansible_create_modules _for_windows.md",
+        "Contributor_Email": ["prax78@gmail.com"] 
+    },   
     {
         "Title": "Terraform- Basics and Interview Questions",
         "Sub_Title": "Some of the Terraform Interview Questions with Answers",
